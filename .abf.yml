@@ -1,2 +1,4 @@
+removed_sources:
+  Dist-Zilla-PluginBundle-BINGOS-0.02.tar.gz: aaaad2a357caecf188586bd97152c34733fbbb5e
 sources:
-  "Dist-Zilla-PluginBundle-BINGOS-0.02.tar.gz": aaaad2a357caecf188586bd97152c34733fbbb5e
+  Dist-Zilla-PluginBundle-BINGOS-0.18.tar.gz: 9235823f0e5e13e056b9c0fc6b96128cdee7538b

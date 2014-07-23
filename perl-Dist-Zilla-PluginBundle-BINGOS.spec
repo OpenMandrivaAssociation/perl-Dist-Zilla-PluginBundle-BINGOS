@@ -1,9 +1,9 @@
 %define upstream_name    Dist-Zilla-PluginBundle-BINGOS
-%define upstream_version 0.02
+%define upstream_version 0.18
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	BeLike::BINGOS when you build your dists
 License:	GPL+ or Artistic
@@ -47,4 +47,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc META.yml LICENSE README META.json Changes
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
