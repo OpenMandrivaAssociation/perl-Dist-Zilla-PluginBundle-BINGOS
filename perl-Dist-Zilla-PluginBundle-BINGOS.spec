@@ -1,15 +1,15 @@
 %define upstream_name    Dist-Zilla-PluginBundle-BINGOS
-%define upstream_version 0.02
+%define upstream_version 0.20
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	BeLike::BINGOS when you build your dists
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Dist/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/bingos/dist-zilla-pluginbundle-bingos
+Source0:	https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Dist-Zilla-PluginBundle-BINGOS-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
